@@ -4,4 +4,5 @@ $( document ).ready(function() {
 
 $( ".link" ).click(function() {
     // Add here commands to run on link click
+     amplitude.getInstance().logEvent('linkclicked');
 });
